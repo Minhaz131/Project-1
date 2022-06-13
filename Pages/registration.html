@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Registration Form</h1>
+        <hr>
+        <form action="">
+        <fieldset>
+            <legend>Registration</legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required autofocus><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name" required autofocus><br><br>
+            <label for="username">Username:</label><br>
+            <input type="username" id="username" name="username" placeholder="Enter your username" required autofocus><br> <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required autofocus><br><br>
+            <label for="Password">Password:</label><br>
+            <input type="password" id="Password" name="Password" placeholder="Enter your password" required autofocus><br><br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+            <label for="time">Time:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+            <label for="color">Colour:</label><br>
+            <input type="color" id="color" name="color" required><br><br>
+            <label for="hidden">Hidden:</label><br>
+            <input type="hidden" id="hidden" name="hidden" value="Chittagong" ><br><br>
+            <label for="Number">Number:</label>
+            <input type="number" id="Number" name="Number" min="20" max="80" step="4" required><br><br>
+            <label for="range">Range:</label><br>
+            <input type="range" id="range" name="range" min="3000" max="9000" required><br><br>
+            <label for="file">File:</label><br>
+            <input type="file" id="file" name="file" multiple required><br><br>
+            <label for="url">URL:</label><br>
+            <input type="url" id="url" name="url" placeholder="Enter your website url" required><br><br>
+            <div>
+                <label>Gender:</label><br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+            </div><br><br>
+            <div>
+                <label for="checkbox">Select favourite place</label><br>
+                <input type="checkbox" name="checkbox">Chittagong
+                <input type="checkbox" name="checkbox">Dhaka
+                <input type="checkbox" name="checkbox">kulna
+                <input type="checkbox" name="checkbox">Sylhet
+            </div><br><br>
+            <textarea name="textarea" cols="30" rows="10" placeholder="Write Your Comment">Hello...</textarea><br><br>
+            <label for="car">Car</label>
+            <select name="Car" id="Car" multiple size="2">
+                <optgroup label="Car">
+                    <option value="BMW">BMW</option>
+                    <option value="Audi" selected>Audi</option>
+                    <option value="Farrari">Farrari</option>
+                    <option value="Tesla">Tesla</option>
+                </optgroup>
+                <optgroup label="Sports">
+                    <option value="Cricket">Cricket</option>
+                    <option value="Footbal">Footbal</option>
+                    <option value="Hockey">Hockey</option>
+                    <option value="Bedminton">Bedminton</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <div>
+                <label>Search</label><br>
+                <input type="text" list="connect">
+                <datalist id="connect">
+                    <option value="Car">
+                    <option value="Apple">
+                    <option value="Orange">
+                    <option value="BMW">
+                    <option value="Tasla">
+                    <option value="Mango">
+                    <option value="Cricket">
+                </datalist>
+                <input type="submit" value="Search"><br><br>
+                </div>
+            <input type="reset" value="clear">
+            <input type="submit" value="Registration">
+        </form>
+    </div>
+</body>
+</html>
